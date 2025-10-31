@@ -1,0 +1,17 @@
+# Dependências do Cluster Distribuído
+
+# Master Node
+flask==3.0.0
+flask-cors==4.0.0
+redis==5.0.1
+requests==2.31.0
+
+# Worker Nodes
+redis==5.0.1
+selenium==4.16.0
+undetected-chromedriver==3.5.5
+requests==2.31.0
+
+# Opcional (monitoramento)
+psutil==5.9.6
+
